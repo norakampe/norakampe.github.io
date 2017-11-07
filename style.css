@@ -1,0 +1,110 @@
+body {
+  color: #b8b4b4;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+}
+
+#earlyBird {
+  text-align: center;
+  padding: 0.5em;
+  height: 2em;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+
+header {
+  background-image: url('images/summer-food-festival-hero.jpg');
+  opacity: 0.8;
+  text-align: center;
+  color: #fff;
+  line-height: 22px;
+  padding:100px;
+  margin: 0 0 10px 0;
+}
+
+header > h1 {
+  color: gold;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
+}
+
+nav {
+  width: 960px;
+  margin: 0 auto;
+  text-align:center;
+  padding:20px;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 20px;
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 5px;
+  height: 40px;
+}
+nav ul li a {
+    padding: 10px;
+    border: 1px peru solid;
+}
+
+nav ul li a:link {
+  color: peru;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+nav ul li a:visited {
+  color: peru;
+}
+
+main {
+  margin: 0 auto;
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: ghostwhite;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #b6ab8d;
+
+}
+
+#sectionPanels{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#sectionPanels > figure {
+  background:lightgrey;
+  width: 15em;
+  padding: 1em;
+}
+
+#sectionPanels > figure > ol > li > a {
+  text-decoration: none;
+
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  width: 960px;
+}
